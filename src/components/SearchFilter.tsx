@@ -91,7 +91,7 @@ const SearchFilter: React.FC<SearchFilterProps> = ({
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
-              className="p-4 text-gray-600 border border-gray-200 rounded-xl shadow-sm hover:bg-gray-50 min-w-[120px]"
+              className="p-4 text-gray-600  inter_59dee874-module__9CtR0q__className  border border-gray-200 rounded-xl shadow-sm hover:bg-gray-50 min-w-[120px]"
             >
               <option value="" >추천순</option>
               <option value="rating">별점 높은순</option>
